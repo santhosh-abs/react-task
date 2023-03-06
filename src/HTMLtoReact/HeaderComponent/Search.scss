@@ -1,0 +1,18 @@
+.search-bar{
+    .search-int{
+        width: 100%;
+        border-radius: 10px;
+        border-bottom-right-radius: 0;
+        border-top-right-radius: 0;
+        outline: none;
+        border: 1px solid #e2e2e2;
+        background-color: #f1f1f1;
+        padding: 7px 15px;
+    }
+    button{
+        border: none;
+        padding: 8px;
+        border-bottom-right-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+}

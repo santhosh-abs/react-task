@@ -1,0 +1,254 @@
+.product-view{
+    #categories-list{
+        padding: 0px 30px 0px 12px;
+    }
+    #check-box{
+        border: none;
+        box-shadow: rgb(99 99 99 / 20%) 0px 2px 8px 0px;
+        background: #fff;
+        .option-wraper{
+            ul{
+                padding: 0;
+            }
+            li{
+                display: flex;
+                align-items: center;
+                margin-bottom: 10px;
+                font-size: 14px;
+                text-align: left;
+            }
+        }
+    }
+    .left{
+        .breadcrumb{
+            margin-bottom: 6px;
+        }
+    }
+    .right{
+        #icon-btn{
+            background-color: #fff;
+            border: 1px solid #E1E1E1;
+            border-radius: 10px;
+            padding: 6px 12px;
+        }
+        #icon-btn:hover{
+            background: #d3d4d5;
+        }
+    }
+    .banner-section{
+        position: relative;
+        img{
+            width: 100%;
+        }
+        .content{
+            position: absolute;
+            top: 50px;
+            left: 80px;
+            h1,p{
+                color: #0F75B7;
+            }
+        }
+    }
+    .site-wrapper{
+        background: #f8f9fa;
+        padding: 15px 80px 40px;
+    }
+    .option-wraper{
+        ul{
+            list-style: none;
+        }
+    }
+    #sort-btn{
+        button{
+            background-color: #fff;
+            font-size: 14px;
+            border: 1px solid #E1E1E1;
+            border-radius: 10px;
+        }
+        button:hover{
+            background: #d3d4d5;
+        }
+    }   
+    #card-list{
+        border: none;
+        box-shadow: rgb(99 99 99 / 20%) 0px 2px 8px 0px;
+        background: #fff;
+        border-radius: 10px;
+        width: 290px;
+        h4{
+            font-size: 14px;
+        }
+        h5{
+            font-size: 12px;
+        }
+        h3{
+            font-size: 16px;
+        }
+    }
+    #card-banner{
+        position: relative;
+        width: fit-content;
+        .list-img-wrapper{
+            img{
+                width: 110px;
+                height: 150px;
+            }
+        }
+        #bag{
+            background: #F05A28;
+            color: #fff;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        #heart{
+            position: absolute;
+            right: 10px;
+            top: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #F05A28;
+            visibility: hidden;
+            font-size: 14px;
+            background: #fff;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            box-shadow: rgb(99 99 99 / 20%) 0px 2px 8px 0px;
+        }
+        #star-fill{
+            color: #0446a8;
+        }
+    }
+    #card-list:hover{
+        #heart{
+            visibility: visible;
+        }
+    }
+}
+#recent{
+    .site-wrapper{
+        position: relative;
+        padding:0px 0px 40px 0px ;
+        .inner-header{
+            padding: 15px 80px 0px;
+            h4{
+                border-left: 5px solid #F05A28;
+                padding-left: 13px;
+                font-size: 24px;
+            }
+        }
+        .carousel-component{
+            .rec-carousel-wrapper{
+                .rec-swipable{
+                    overflow: unset;
+                }
+                .rec-arrow{
+                    background-color: #fff;
+                    font-size: 14px;
+                    border: 1px solid #E1E1E1;
+                    border-radius: 10px;
+                    color: #000000;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    height: 40px;
+                }
+                .rec-arrow-left{
+                    position: absolute;
+                    top: 15px;
+                    right: 90px;
+                    
+                }
+                .rec-arrow:hover{
+                    background:#d3d4d5;
+                }
+                .rec-arrow:disabled{
+                    background: none;
+                    color: #969494;
+                }
+                .rec-arrow-right{
+                    position: absolute;
+                    top: 15px;
+                    right: 30px;
+                }
+                .rec-pagination{
+                    display: none;
+                }
+            }
+            .text-end{
+                .btn{
+                background-color: #fff;
+                font-size: 14px;
+                border: 1px solid #E1E1E1;
+                border-radius: 10px;
+                color: #707070;
+                }
+                .btn:hover{
+                    background:#d3d4d5;
+                    color: #000000;
+                }
+            }
+            #card-banner{
+                position: relative;
+                padding: 20px 0px;
+                #card-list{
+                    border: none;
+                    box-shadow: rgb(99 99 99 / 20%) 0px 2px 8px 0px;
+                    background: #fff;
+                    border-radius: 10px;
+                    width: 250px;
+                }
+                h4{
+                    font-size: 14px;
+                }
+                h5{
+                    font-size: 12px;
+                }
+                h3{
+                    font-size: 16px;
+                }
+                a{
+                    text-decoration: none;
+                }
+                .list-img-wrapper{
+                    img{
+                        width: 110px;
+                        height: 150px;
+                    }
+                }
+                #bag{
+                    background: #F05A28;
+                    color: #fff;
+                    padding: 10px;
+                    border-radius: 5px;
+                }
+                #heart{
+                    position: absolute;
+                    right: 10px;
+                    top: 10px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    color: #F05A28;
+                    visibility: hidden;
+                    font-size: 14px;
+                    background: #fff;
+                    width: 30px;
+                    height: 30px;
+                    border-radius: 50%;
+                    box-shadow: rgb(99 99 99 / 20%) 0px 2px 8px 0px;
+                }
+                #star-fill{
+                    color: #0446a8;
+                }
+            }
+            #card-list:hover{
+                #heart{
+                    visibility: visible;
+                }
+            }
+        }
+    }
+    
+}

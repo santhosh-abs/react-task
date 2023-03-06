@@ -1,0 +1,50 @@
+.signin-component{
+    .container-component{
+        .card-login{
+            background-color: white;
+            box-sizing: border-box;
+            box-shadow: rgb(110, 109, 109);
+            border-radius: 8px;
+            margin: 60px;
+            width: 30%;
+            #password{
+                position: relative;
+            }
+            #eye-icon{
+                position: absolute;
+                right: 10px;
+                top: 32px;
+            }
+            .btn{
+                background-color: #F05A28;
+                color: white;
+                border: none;
+                padding: 6px 12px;
+                font-size: 14px;
+                width: 25%;
+        
+            }
+            #f-pwd{
+            
+                text-decoration: none;
+                color: #1C67A8;
+            }
+        }
+        @media only screen and (min-device-width: 320px) and (max-device-width: 600px){
+            .card-login {
+                width: 100%;
+                margin: 20px;
+                font-size: 14px;
+                h1{
+                    font-size: 22px;
+                }
+                .login-custom {
+                    flex-direction: column;
+                }
+                .btn{
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

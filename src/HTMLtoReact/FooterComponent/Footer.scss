@@ -1,0 +1,99 @@
+#footer{
+    padding: 15px 80px 40px;
+    .footer{
+        padding: 30px 0px;
+    }
+    .footer-top{
+        border-bottom: 1px solid #ddd ;
+    }
+    .footer-top{
+        padding-bottom:30px;
+    }
+    p{
+        width: 70%;
+        font-size: 14px;
+        color: #ffffff;
+    }
+    h1{
+        color: #ffffff;
+        font-size: 40px;
+    }
+    h3{
+        color: #ffffff;
+        font-size: 20px;
+    }
+    li{
+        color: #efefef;
+        font-size: 14px;
+        margin-bottom: 7px;
+
+    }
+    #social-icon{
+        color: #F05A28;
+        font-size: 24px;
+        border: 1px solid #EEEEEE;
+        width: 50px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        background: #fff;
+    }
+    .ft-l{
+        .fot-lo{
+            width: 40%;
+        }
+    }
+    .subscription{
+        position: relative;
+        input{
+            padding: 15px 15px 15px 20px;
+            border-radius: 10px;
+            border: none;
+            width: 100%;
+        }
+        button{
+            position: absolute;
+            right: 0;
+            top: 0;
+            padding: 15px 20px;
+            border-radius: 10px;
+            border: none;
+            background: #1C67A8;
+        }
+    }
+    ul{
+        list-style:none;
+
+    }
+    #tel-icon{
+        text-decoration: none;
+        color: white;
+        
+        i{
+            color: white;
+        }
+    }
+}
+#ft-btm{
+    padding: 15px 80px;
+    .payment2{
+        width: 140px;
+        height: 25px;
+        padding:0px 0px 0px 20px;
+    }
+    .payment1{
+        width: 140;
+        height: 84px;
+    }
+    a{
+        text-decoration: none;
+        color: #707070;
+    }
+    span{
+        a{
+            color: #F05A28;
+        }
+    }
+}
